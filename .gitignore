@@ -102,3 +102,10 @@ ENV/
 
 # emacs
 *~
+
+# react
+node_modules/
+*.swp
+www/builds
+npm-debug.log
+             
