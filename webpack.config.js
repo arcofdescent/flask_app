@@ -17,13 +17,11 @@ module.exports = {
         loader: 'babel-loader',
         include: __dirname + '/src',
       },
-        /*
       {
         test: /\.scss$/,
         loaders: ['style-loader', 'css-loader', 'sass-loader'],
         include: __dirname + '/src',
       },
-      */
     ],
   },
 

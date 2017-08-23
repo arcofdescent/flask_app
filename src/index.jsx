@@ -2,6 +2,7 @@
 // Entry point of app
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './containers/App.jsx';
 
 /*
   import { createStore } from 'redux';
@@ -23,6 +24,8 @@ import ReactDOM from 'react-dom';
 */
 
 ReactDOM.render(
-    <h3>Flask with React</h3>,
+    <div className="app">
+      <App />
+    </div>,
     document.getElementById('root')
 );
