@@ -27,7 +27,7 @@ def get_quote(symbol):
     
     res = make_response(r.text)
     res.headers['Content-Type'] = 'application/json'
-    #res.headers['Access-Control-Allow-Origin'] = "*"
+    res.headers['Access-Control-Allow-Origin'] = "*"
 
     return res
 
